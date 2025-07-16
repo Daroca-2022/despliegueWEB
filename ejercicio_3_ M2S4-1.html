@@ -1,0 +1,56 @@
+<!--- Ejercicio 3: Lista Interactiva con Estilos Dinámicos en JavaScript
+En este ejercicio crearás una lista de elementos y harás que al hacer clic en cada elemento cambie su color de fondo para destacar la selección.
+
+¿Qué harás?
+
+Crearás una lista HTML con varios ítems.
+Agregarás un evento de clic a cada ítem para que cambie su color de fondo cuando sea seleccionado.
+Al hacer clic en otro ítem, el color del anterior volverá a la normalidad, destacando solo el seleccionado.
+Ejecuta código JavaScript en tu navegador
+Objetivo del ejercicio:
+
+Agregar eventos de clic a múltiples elementos del DOM.
+Manipular estilos CSS para resaltar elementos dinámicamente.
+Gestionar la selección exclusiva para destacar solo un elemento a la vez.
+🔍 ¿Qué hace el código?
+Define un estilo .seleccionado que cambia el color de fondo del ítem seleccionado.
+
+Usa querySelectorAll para seleccionar todos los <li> de la lista.
+
+Escucha el evento click en cada ítem.
+
+Al hacer clic:
+
+Elimina el estilo de selección de todos los ítems.
+
+Añade el estilo solo al que fue clicado.
+
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>    
+    <title>Lista Html con eventos JavaScript</title> 
+    <!-- Enlaza el archivo CSS para los estilos -->
+    <link rel="stylesheet" href="style.css">
+    
+   
+</head>
+<body>
+    <p>¿Qué harás?</p>
+    <ol type="a"  id="miLista">
+        <li>Crearás una lista HTML con varios ítems.</li>
+        <li>Agregarás un evento de clic a cada ítem para que cambie su color de fondo cuando sea seleccionado.</li>
+        <li>Al hacer clic en otro ítem, el color del anterior volverá a la normalidad, destacando solo el seleccionado.</li>
+</ol>
+<img src="training.png" alt="Logo de Google">
+
+    <script src="javascript.js"> </script>
+    
+</body>
+</html>
+
+
+
+

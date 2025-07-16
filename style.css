@@ -1,0 +1,12 @@
+li {
+    cursor: pointer;
+    padding: 8px;
+    transition: background-color 0.3s;
+}
+.seleccionado {
+    color: #2b13c6;
+}
+img{
+width: 5%;
+height: 5%;
+}
