@@ -14,9 +14,9 @@ jobs:
         uses: actions/configure-pages@v3
  
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: './public'  # Usa los archivos en la raíz
+          path: './'  # Usa los archivos en la raíz
  
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
